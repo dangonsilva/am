@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title.sonifya">Sonifya | Artificial Music</title>
+  <meta name="description" data-i18n-content="meta.desc.sonifya" content="O Sonifya transforma um toque em um emoji em música calma e personalizada, feita para pessoas autistas e com TDAH.">
+  <meta property="og:title" content="Sonifya | Artificial Music">
+  <meta property="og:description" content="Engineering Intelligence for Sound Systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.artificialmusic.ai/assets/preview.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/logo.svg" alt="Artificial Music" width="150" height="44">
+      </a>
+
+      <nav class="nav mono" id="nav" aria-label="Principal" data-i18n-aria="aria.main">
+        <a href="sobre.html" data-i18n="nav.about">Sobre</a>
+        <a href="sonifya.html" aria-current="page">Sonifya</a>
+        <a href="projetos.html" data-i18n="nav.projects">Projetos</a>
+        <a href="contato.html" data-i18n="nav.contact">Contato</a>
+      </nav>
+
+      <div class="tools mono">
+        <label class="lang">
+          <span class="sr-only" data-i18n="lang.label">Idioma</span>
+          <select id="lang">
+            <option value="pt">PT-BR</option>
+            <option value="en">EN</option>
+          </select>
+        </label>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" data-i18n="menu">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- TÍTULO DA PÁGINA -->
+    <section class="sx-hero">
+      <p class="mono label">[ <span data-i18n="sx.label">Música para o bem-estar emocional</span> ]</p>
+      <h1 class="display sx-hero__title">Sonifya</h1>
+      <div class="sx-hero__grid">
+        <p class="lead" data-i18n="sx.lead">O Sonifya transforma um toque em um emoji em música calma e personalizada, feita para pessoas autistas e com TDAH.</p>
+        <div>
+          <div class="actions">
+            <a class="btn btn--solid" href="#">
+              <span data-i18n="sx.cta.app">Baixar o app</span>
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#profissionais" data-i18n="sx.cta.pro">Para profissionais →</a>
+          </div>
+          <p class="mono sx-hero__note" data-i18n="sx.web">Também disponível no navegador: iPhone, tablet ou computador.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARA USUÁRIOS -->
+    <section class="section" id="usuarios" aria-labelledby="usuarios-title">
+      <header class="section__head">
+        <p class="mono label">[ <span data-i18n="sx.u.label">Para usuários</span> ]</p>
+        <h2 class="display h2" id="usuarios-title" data-i18n="sx.u.title">Feito para como seu cérebro funciona</h2>
+      </header>
+      <div class="sx-grid">
+        <div class="sx-col">
+          <p class="lead" data-i18n="sx.u.sub">Escolha como você está se sentindo. A música acompanha.</p>
+          <p class="sx-emojis" role="img" aria-label="Emojis de humor" data-i18n-aria="sx.u.moods"><span class="sx-emoji" aria-hidden="true">😊</span><span class="sx-emoji" aria-hidden="true">😢</span><span class="sx-emoji" aria-hidden="true">😠</span><span class="sx-emoji" aria-hidden="true">😴</span><span class="sx-emoji" aria-hidden="true">😰</span></p>
+          <ul class="xlist">
+            <li><span class="mono">[001]</span><span data-i18n="sx.u.1">Áudio sensorialmente seguro, sem sons repentinos e com limite de volume</span></li>
+            <li><span class="mono">[002]</span><span data-i18n="sx.u.2">Reouça sessões anteriores quando quiser, offline no Android</span></li>
+            <li><span class="mono">[003]</span><span data-i18n="sx.u.3">Compartilhe como você se sentiu depois, para seu profissional acompanhar seu progresso</span></li>
+            <li><span class="mono">[004]</span><span data-i18n="sx.u.4">Brincar: cantarole uma melodia e ela vira música no seu próprio álbum, sem sequências, pontos ou cronômetro (Android)</span></li>
+            <li><span class="mono">[005]</span><span data-i18n="sx.u.5">Com um smartwatch, a música se acalma sozinha quando seu batimento cardíaco sobe. Esse dado nunca sai do seu celular (Android)</span></li>
+          </ul>
+        </div>
+        <aside class="why sx-how" aria-labelledby="how-title">
+          <h3 id="how-title" data-i18n="sx.how.title">Como funciona</h3>
+          <ol class="xlist">
+            <li><span class="mono">[001]</span><span data-i18n="sx.how.1">Escolha um emoji que combine com seu humor</span></li>
+            <li><span class="mono">[002]</span><span data-i18n="sx.how.2">O Sonifya gera uma música única para esse sentimento</span></li>
+            <li><span class="mono">[003]</span><span data-i18n="sx.how.3">Ouça, reouça ou experimente outro humor</span></li>
+            <li><span class="mono">[004]</span><span data-i18n="sx.how.4">Seu profissional vê o histórico das suas sessões no dashboard dele</span></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PARA PROFISSIONAIS -->
+    <section class="section sx-pro" id="profissionais" aria-labelledby="pro-title">
+      <header class="section__head">
+        <p class="mono label">[ <span data-i18n="sx.p.label">Para profissionais</span> ]</p>
+        <h2 class="display h2" id="pro-title" data-i18n="sx.p.title">Um dashboard construído em torno de dados, não de diagnóstico</h2>
+      </header>
+      <div class="sx-grid">
+        <div class="sx-col">
+          <p class="lead" data-i18n="sx.p.text">O Sonifya dá a terapeutas ocupacionais, psicólogos e educadores uma visão estruturada do histórico de sessões de seus pacientes, para que tragam observações bem informadas a cada atendimento.</p>
+          <p class="sx-quote" data-i18n="sx.p.quote">O Sonifya mostra os dados. Você tira as conclusões.</p>
+        </div>
+        <ul class="xlist sx-pro__list">
+            <li><span class="mono">[001]</span><span data-i18n="sx.p.1">Histórico de sessões e tempo de audição</span></li>
+            <li><span class="mono">[002]</span><span data-i18n="sx.p.2">Acompanhamento de humor pós-sessão e taxa de resposta</span></li>
+            <li><span class="mono">[003]</span><span data-i18n="sx.p.3">Alertas de padrão de uso no dashboard</span></li>
+            <li><span class="mono">[004]</span><span data-i18n="sx.p.4">Definição de metas semanais</span></li>
+        </ul>
+        <p class="sx-disc" data-i18n="sx.p.disc">O Sonifya não é um dispositivo médico e não realiza avaliações clínicas, diagnósticos ou recomendações terapêuticas. Todos os dados são apenas informativos. A interpretação clínica é de responsabilidade exclusiva do profissional qualificado que utiliza esta ferramenta.</p>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="news sx-end" aria-labelledby="end-title">
+      <div class="news__inner">
+        <p class="mono label">[ Sonifya ]</p>
+        <div class="news__body">
+          <h2 class="display h2" id="end-title" data-i18n="sx.end.title">Pronto para começar?</h2>
+          <div class="actions" style="margin-top:0">
+            <a class="btn btn--solid" href="#"><span data-i18n="sx.end.android">Baixar para Android</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+            <a class="btn btn--ghost" href="#profissionais" data-i18n="sx.end.pro">Acesso profissional →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="footer" id="contato">
+    <div class="footer__top mono">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/logo-white.svg" alt="Artificial Music" width="190" height="56">
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé" data-i18n-aria="aria.footer">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="sobre.html" data-i18n="nav.about">Sobre</a>
+        <a href="sonifya.html">Sonifya</a>
+        <a href="projetos.html" data-i18n="nav.projects">Projetos</a>
+        <a href="contato.html" data-i18n="nav.contact">Contato</a>
+      </nav>
+      <div class="footer__social">
+        <span data-i18n="foot.follow">Siga</span>
+        <a class="icon-link" href="https://www.linkedin.com/company/artificialmusic" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3V9.75zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.79-2.07 4.05 0 4.82 2.66 4.82 6.12v5.88h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75v5.29h-4V9.75z"/></svg></a>
+        <a class="icon-link" href="https://www.instagram.com/artificialmusic.ai" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:contact@artificialmusic.ai">contact@artificialmusic.ai</a>
+      </div>
+    </div>
+
+    <p class="footer__legal mono" data-i18n="foot.legal">© 2026 Artificial Music. Inteligência para o Som.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
